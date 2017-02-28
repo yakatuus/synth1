@@ -1,0 +1,43 @@
+html {
+
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+    background-color:#4283f4;
+  margin: 20;
+}
+header{
+	padding-left: 20px;
+	background: #fbb;
+    border-width: 2px;
+    border-style:solid;
+}
+img{
+	padding: 5px;
+}
+article,
+footer,
+main,
+section
+{
+  background-color:#fff;
+  display: block;
+}
+main{
+  padding-bottom: 15px;
+}
+footer{
+  background-color: #fff;
+  padding: 10px;
+}
+.floatleft {
+    float:left;
+}
+.floatright{
+	float:right;
+}
+h1{
+	color: white;
+}

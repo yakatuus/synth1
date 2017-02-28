@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Synthesis One</title>
+  <meta charset="utf-8" />
+
+  <link type="text/css" rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+<header role="banner">
+<h1>Synthesis One</h1>
+</header>
+<main role="main">
+  <article>
+<img src="screenshot_020712.png" width="300" height="300" class="floatleft" alt="Vis1">
+  <img src="screenshot_021243.png" width="600" height="600" class="floatright" alt="Vis1">
+<h2> Website and Artist Statement:</h2>
+<p>These are maps of the retweet network on Twitter following the announcement of a new particle, the Higgs boson on July 4th, 2012.  They were generated using NetworkX 1.11, Gephi 0.9.1, and Python 2.7.x.  As these are retweets, the network is an example of a broadcast network as categorized by the <a href="http://www.pewresearch.org/fact-tank/2014/02/20/the-six-types-of-twitter-conversations/" title="Pew Research Center">Pew Research Center</a>.  The largest hub in this hub and spoke model is likely the official Twitter account of <a href="https://twitter.com/CERN" title="CERN">CERN</a>. Each of the nodes is annotized, so specific identification is speculative.</p>
+<p> Influence in communication networks can be mapped and measured with social network analysis and I am curious as to how that influence spreads.  While I ran into difficulties with the massive size of the data, the end result is generally indicative of a hub and spoke broadcast pattern as expected.  There may have been local clustering I was unable to discern but the secondary nodes are in line with the model.  The first visualization is a <a href="screenshot_020712.png" title="Vis1">wider picture</a> of the network where the CERN node can be seen in the upper right quadrant.  The second visualization is <a href="screenshot_021243.png" title="Vis2">zoomed in</a> on the CERN node in the bottom left.  Upon zooming in, a secondary node also becomes clear near the primary.  Thousands of connections eminate from these few nodes with few mentions between their endpoints of individual Twitter users.  These endpoints also show very little to no association with each other.</p>
+<p>Preparing this visualization was a challenge in compatibility.  The scope of my dataset kept causing delays in manipulating the data.  Gephi for example kept crashing over a memory limit that required reinstallation each time.  Matplotlib would spit errors about depreciation.  The scale of the project was reduced by broken links and downloads.  Byzantine documentation for the Graphviz software halted my progress in using the SNAP.py package, which will be an ultimate goal for the semester.  Essentially I went through iteration after iteration until finding a solution that worked.  As I progressed through smaller and simpler datasets, I was finally able to find one that I was able to manipulate at my current skill level.  This was a great exercise in Python, HTML, and CSS, however, and my skill and comfort level in those areas improved dramatically.  In the future I hope to find a graphic visualization utility that will work with the SNAP.py binary graphs and understand Python binary inputs and outputs</p>
+
+
+  </article>
+
+ </main>
+ <footer> by Michael O'Connell oconnell.m@gmail.com </footer>
+ </body>
+ </html>
